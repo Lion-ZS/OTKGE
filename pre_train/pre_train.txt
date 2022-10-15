@@ -1,0 +1,3 @@
+The pretrain embeddings of multi-modal knowledge can be downloaded from following links:
+Link：https://share.weiyun.com/6I3sTANu 
+Code：q78wm7
