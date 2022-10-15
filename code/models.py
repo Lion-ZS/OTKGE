@@ -51,8 +51,8 @@ class OTKGE_wn(KBCModel):
         super(OTKGE_wn, self).__init__()
         self.sizes = sizes
         self.rank = rank
-        alpha=0.1
-        gamma=0.8
+        alpha=0.1#select the parameter
+        gamma=0.8#select the parameter
         self.alpha = nn.Parameter(torch.tensor(alpha), requires_grad=False)
         self.gamma = nn.Parameter(torch.tensor(gamma), requires_grad=False)
         self.scale=100
@@ -136,8 +136,8 @@ class OTKGE_fb(KBCModel):
         super(OTKGE_fb, self).__init__()
         self.sizes = sizes
         self.rank = rank
-        alpha=0.1
-        gamma=0.7
+        alpha=0.1#select the parameter
+        gamma=0.7#select the parameter
         self.alpha = nn.Parameter(torch.tensor(alpha), requires_grad=False)
         self.gamma = nn.Parameter(torch.tensor(gamma), requires_grad=False)
         fb_ling_f=r'../pre_train/matrix_fb_ling.npy'
